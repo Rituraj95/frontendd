@@ -1,0 +1,17 @@
+.carousal-box {
+    width:65rem;
+    height:'80%';
+    margin: 0 0 0 12rem;
+}
+.carouselImg{
+    border-radius: 15px ;
+    height: 45rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .carouselImg{
+        border-radius: 0;
+        height: 16.5rem;
+    }
+
+}

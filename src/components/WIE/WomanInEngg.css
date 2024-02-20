@@ -1,0 +1,16 @@
+.maincontainer {
+    height: 80rem;
+    width: 55rem;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin: 2rem auto;
+    font-family: "Fredoka", sans-serif;
+}
+@media (max-width:600px) {
+    .maincontainer{
+        width: 20rem;
+        height: 187rem;
+    }
+    
+    
+}

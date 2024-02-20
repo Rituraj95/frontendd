@@ -1,0 +1,92 @@
+.tuLogo{
+    width: 7rem;
+}
+.ieeeLogo{
+    width: 10rem;
+}
+.navbarText{
+    font-family: "'Nunito', sans-serif";
+    font-weight: 600;
+    color: white;
+
+                        
+}
+
+#navbar {
+  width: 100%;
+  margin: 0;
+  height: 8rem;
+  background-color: #0a75ad;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.menuStyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: #056273;
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+}
+
+.menuDetails {
+  margin: 0 3rem;
+  padding: 0.5rem 1rem 0.2rem 1rem;
+  border: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: #ffffff;
+  background-color: #0a75ad;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.headerMenu {
+    background-color: #0a75ad; 
+    color: #ffffff;
+    border: none;
+    font-weight: 600; 
+    text-decoration: underline; 
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .tuLogo{
+    width: 4rem;
+  }
+  .ieeeLogo{
+    width: 5rem;
+  }
+  .navbarText{
+    font-size: calc(0.375rem + 1.5vw);
+  }
+  #navbar{
+    height: 4rem;
+  }
+  .menuDetails{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.3rem;
+  
+
+  }
+  .menuStyle{
+    gap: 20px;
+  }
+  .headerMenu{
+    font-size: 8px;
+  }
+
+
+  }

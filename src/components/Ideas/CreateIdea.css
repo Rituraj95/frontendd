@@ -1,0 +1,34 @@
+.event-form-maincontainer {
+    /* background-color: aqua; */
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #333;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    width: 53rem;
+  }
+  
+  .event-form-header {
+    /* font-size: 2rem; */
+    /* text-align: center; */
+    /* font-weight: 600; */
+  }
+  
+  .event-form-submitcontainer {
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .event-form-submit {
+   
+  }
+  
+  .event-form-clear {
+    border-color:red;
+    color:red;
+  }
